@@ -1,0 +1,803 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: 'Segoe UI', sans-serif;
+   background-color: #f7f7f7;
+   background-size: cover;
+
+ }
+
+
+
+ body {
+   font-family: 'Segoe UI', sans-serif;
+   background-color: #fdf6f0;
+ }
+
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 50px;
+   background-color: #fff8f4;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   font-family: 'Cinzel', serif;
+ }
+
+ .logo {
+   font-size: 1.8rem;
+   font-weight: bold;
+   font-family: 'Cinzel', serif;
+   color: #d17a69;
+   letter-spacing: 1px;
+ }
+
+ .nav-links a {
+   margin: 0 15px;
+   text-decoration: none;
+   color: #333;
+   font-size: 1rem;
+   transition: color 0.3s ease;
+ }
+
+ .nav-links a:hover {
+   color: #d17a69;
+ }
+
+ .shop-btn {
+   padding: 10px 20px;
+   background-color: #d17a69;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 25px;
+   transition: background-color 0.3s ease;
+   font-family: 'Cinzel', serif;
+ }
+
+ .shop-btn:hover {
+   background-color: #bb5e4f;
+ }
+
+ .front {
+   width: 100%;
+   height: 800px;
+
+   background-image: url(/856567-tips-from-the-worlds-best-perfumers-on-how-to-find-the-one.jpg);
+   background-size: cover;
+   text-align: center;
+   background-position: center;
+
+
+
+
+ }
+
+ .h4 {
+   font-size: 40px;
+   background: -webkit-linear-gradient(pink, rgb(195, 64, 84), rgb(199, 148, 157));
+   font-family: 'Cinzel', serif;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+
+
+
+
+ }
+
+ .h5 {
+   font-size: 30px;
+   background: -webkit-linear-gradient(pink, rgb(211, 84, 103), rgb(204, 105, 124));
+   display: inline-block;
+   font-family: 'Cinzel', serif;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+ }
+
+ .p {
+   font-size: 20px;
+ }
+
+ .head {
+   padding-top: 210px;
+   font-family: 'Cinzel', serif;
+   font-size: 85px;
+   background: linear-gradient(pink, rgb(214, 32, 59), rgb(202, 97, 117));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   font-weight: bold;
+
+
+
+ }
+
+ .products {
+   display: flex;
+   gap: 20px;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 20px;
+
+
+
+
+
+ }
+
+ .span {
+
+   font-family: 'Cinzel', serif;
+ }
+
+
+
+ .products-card {
+   width: 220px;
+   height: 235px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin: 0px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+   text-align: center;
+   margin: 0px;
+
+
+ }
+
+ .products-card img {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 10px;
+
+
+ }
+
+ .buy {
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+
+
+
+ .products-card p {
+   font-size: 20px;
+   color: rgb(28, 25, 25);
+ }
+
+
+ .products-card button:hover {
+   background-color: black;
+   color: white;
+   width: 85px;
+   height: 30px;
+ }
+
+ .products-card button {
+   width: 80px;
+   height: 30px;
+   font-weight: bold;
+   border-radius: 50px;
+   background-color: black;
+   color: white;
+   border: none;
+   margin-bottom: 5px;
+
+ }
+
+ .RE {
+   width: 200px;
+   height: 180px;
+   background-color: beige;
+   border-radius: 5px;
+   text-align: center;
+   border: 2px solid black;
+
+ }
+
+ .RE img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 2px solid black;
+ }
+
+ .REV {
+   display: flex;
+   justify-content: space-evenly;
+
+   margin: 20px;
+
+ }
+
+ .h {
+   text-align: center;
+   font-size: 35px;
+   font-family: 'Cinzel', serif;
+   margin-top: 80px;
+   width: 100%;
+
+
+
+ }
+
+ .content {
+   width: 800px;
+   height: 300px;
+
+   text-align: center;
+   font-family: 'Cinzel', serif;
+   margin-left: 370px;
+
+ }
+
+ .box {
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   color: white;
+}
+
+ .h {
+   color: white;
+ }
+
+ .p {
+   color: #fff;
+   font-size: 15px;
+   margin: 20px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .box2 {
+   width: 100%;
+   height: 400px;
+   display: flex;
+   justify-content: space-evenly;
+
+ }
+
+ .b {
+   font-size: 20px;
+
+ }
+
+ .sign {
+   width: 400px;
+   height: 100px;
+   border-radius: 10px;
+   margin-top: 100px;
+   margin-right: 50px;
+
+ }
+
+ .icon {
+   width: 150px;
+   height: 50px;
+   margin: 100px;
+   color: white;
+
+ }
+
+ .last {
+   background-color: black;
+
+ }
+
+ .k {
+   color: white;
+ }
+
+ .review {
+   padding: 20px;
+   background-color: #f7f7f7;
+   width: 100%;
+   font-family: 'Cinzel', serif;
+
+ }
+
+ .review-container {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+ }
+
+ .review-card {
+   margin: 20px;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   width: calc(33.33% - 20px);
+ }
+
+ .review-card img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-bottom: 10px;
+ }
+
+ .review-card h3 {
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+
+ .review-card p {
+   margin-bottom: 10px;
+ }
+
+ .footer {
+   background-color: black;
+   color: white;
+   padding: 40px 20px;
+   font-family: 'Cinzel', serif;
+   width: 100%;
+   height: 600px;
+ }
+
+ .footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 20px;
+ }
+
+ .footer-section {
+   max-width: 250px;
+ }
+
+ .footer-section h4 {
+   margin-bottom: 10px;
+   font-size: 16px;
+ }
+
+ .footer-section ul {
+   list-style: none;
+   padding: 0;
+ }
+
+ .footer-section ul li {
+   margin: 5px 0;
+   cursor: pointer;
+ }
+
+ .footer-section p {
+   line-height: 1.6;
+ }
+
+
+ .footer-bottom {
+   border-top: 1px solid #444;
+   margin-top: 30px;
+   padding-top: 20px;
+   text-align: center;
+ }
+
+ .social-icons i {
+   margin: 0 10px;
+   font-size: 18px;
+   cursor: pointer;
+ }
+
+ .blue {
+   color: #1da1f2;
+ }
+
+ .hira {
+   text-align: center;
+   margin-bottom: 50px;
+ }
+
+ .collection {
+   display: flex;
+   justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+
+ }
+
+ .c {
+   width: 200px;
+   height: 50px;
+   border: 2px solid black;
+   text-align: center;
+   padding: 5px;
+   margin-top: 80px;
+   margin-bottom: 50px;
+
+ }
+
+ .title {
+   text-align: center;
+   font-family: 'Cinzel', serif;
+
+ }
+
+ .about {
+
+
+   margin: 0;
+   font-family: 'Segoe UI', sans-serif;
+   background-image: radial-gradient(circle, #fbb5b5 0%, #f9a7a7 100%);
+   color: #333;
+   display: flex;
+   justify-content: space-evenly;
+   width: 1440px;
+   height: 600px;
+   align-items: center;
+   margin-left: 30px;
+
+
+
+ }
+
+ .container {
+
+   max-width: 700px;
+   font-family: 'Cinzel', serif;
+
+
+ }
+
+ h1 {
+   font-size: 3rem;
+   text-align: center;
+   margin-bottom: 20px;
+   color: #bb5e4f;
+
+
+ }
+
+ p {
+   font-size: 1.2rem;
+   line-height: 1.7;
+   margin-bottom: 20px;
+   ;
+ }
+
+ .highlight {
+   color: #e91e63;
+   font-weight: bold;
+ }
+
+
+
+
+
+
+ .carosual-cotainer {
+   width: 400px;
+   height: 400px;
+   background-color: grey;
+   overflow: hidden;
+   border-radius: 5px;
+
+
+ }
+
+ .img-cotainer {
+   width: 100%;
+   height: 100%;
+   animation: carosual 10s infinite ease-in-out;
+
+   display: flex;
+
+
+ }
+
+ .aboutimg {
+   width: 400px;
+   height: 400px;
+   border-radius: 5px;
+ }
+
+ @keyframes carosual {
+
+   0%,
+   10% {
+     transform: translateX(0%);
+
+   }
+
+   20%,
+   30% {
+     transform: translateX(-100%);
+
+
+   }
+
+   40%,
+   50% {
+     transform: translateX(-200%);
+
+   }
+
+   60%,
+   70% {
+     transform: translateX(-300%);
+   }
+
+   80%,
+   90% {
+     transform: translateX(-400%);
+   }
+
+   100% {
+     transform: translateX(-500%);
+   }
+
+ }
+
+ .left {
+   width: 800px;
+   height: 410px;
+   background-image: url(/pics/WhatsApp\ Image\ 2025-07-03\ at\ 1.28.09\ PM.jpeg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 5px;
+
+ }
+
+ .right {
+   width: 500px;
+   height: 200px;
+   background-image: url(/spary.jpg);
+   background-position: center;
+   background-size: cover;
+   margin: 5px;
+   border-radius: 5px;
+ }
+
+ .rights {
+   width: 500px;
+   height: 200px;
+   background-image: url(/pics/WhatsApp\ Image\ 2025-07-02\ at\ 12.02.30\ PM\ \(2\).jpeg);
+   background-position: center;
+   background-size: cover;
+   margin: 5px;
+   border-radius: 5px;
+
+ }
+
+ .total {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+   border-radius: 5px;
+ }
+
+ .page-cotainer {
+   width: 630px;
+   height: 630px;
+   background-color: grey;
+   overflow: hidden;
+   border-radius: 5px;
+   border-radius: 5px;
+
+
+
+ }
+
+ .img-cotainer {
+   width: 100%;
+   height: 100%;
+   animation: carosual 10s infinite ease-in-out;
+
+   display: flex;
+
+
+ }
+
+ .pageimg {
+   width: 630px;
+   height: 630px;
+
+ }
+
+ @keyframes page {
+
+   0%,
+   10% {
+     transform: translateX(0%);
+
+   }
+
+   20%,
+   30% {
+     transform: translateX(-100%);
+
+
+   }
+
+   40%,
+   50% {
+     transform: translateX(-200%);
+
+   }
+
+   60%,
+   70% {
+     transform: translateX(-300%);
+   }
+
+   80%,
+   90% {
+     transform: translateX(-400%);
+   }
+
+   100% {
+     transform: translateX(-500%);
+   }
+
+ }
+
+ .page {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+   height: 650px;
+   margin: 50px;
+
+
+
+ }
+
+ .give {
+   color: #ddd;
+ }
+
+ .un {
+   font-size: 25px;
+
+   font-family: 'Cinzel', serif;
+
+ }
+ @media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+  }
+
+  .front {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .head {
+    font-size: 40px;
+    padding-top: 80px;
+  }
+
+  .h4, .h5 {
+    font-size: 22px;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .products-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .REV {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .RE {
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  .content {
+    width: 90%;
+    margin-left: 0;
+    margin: auto;
+  }
+
+  .box, .box2, .footer-container, .review-container, .collection, .page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sign, .icon, .right, .rights, .left {
+    width: 90% !important;
+    height: 200px;
+    margin: 10px 0;
+  }
+
+  .about {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .carosual-cotainer, .page-cotainer {
+    width: 90%;
+    height: auto;
+  }
+
+  .aboutimg, .pageimg {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    height: auto;
+    padding: 30px 10px;
+  }
+
+  .footer-section {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .review-card {
+    width: 90%;
+  }
+
+  .c {
+    width: 80%;
+  }
+
+  .title h1 {
+    font-size: 28px;
+  }
+
+  .hira {
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+  .carousel-container {
+    max-width: 90vw;
+    border-radius: 10px;
+  }
+}
+ }
